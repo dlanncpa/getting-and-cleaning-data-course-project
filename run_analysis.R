@@ -79,4 +79,4 @@ names(tidyDataSet)[2]<-"Activity"
 
 # Write the tidy data set to a text file.
 
-write.table(tidyDataSet, file = "tidyData.txt")
+write.table(tidyDataSet, file = "tidyData.txt", row.names = FALSE)
